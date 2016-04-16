@@ -1,0 +1,13 @@
+{
+    
+	"BaseDir": "",
+    
+	"IsDevelopment": true,
+    
+	"Name": "Pirate Theme Scenery",
+    
+	"Project": "Custom Scenery.csproj",
+	
+	"AssetBundleDir": "assetbundle"
+
+}

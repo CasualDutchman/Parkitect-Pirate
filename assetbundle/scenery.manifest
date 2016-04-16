@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 3771977709
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8839475c6467a496ff5e68eaac019e95
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7449d7f55c530e528d8a9b5485c29bdd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/mast_1_c.blend
+- Assets/flag_skull_2.blend
+- Assets/wall_full.blend
+- Assets/flag_skull.blend
+- Assets/chest_locked.blend
+- Assets/hatch_closed.blend
+- Assets/hatch_open.blend
+- Assets/flag.blend
+- Assets/beam.blend
+- Assets/wall_end_3-4.blend
+- Assets/wall_cannon_hole_full.blend
+- Assets/cannon_balls_2.blend
+- Assets/cannon_balls_1.blend
+- Assets/cannon.blend
+- Assets/mast_1.blend
+- Assets/wall_3-4.blend
+- Assets/wall_cannon_hole_3-4.blend
+- Assets/crows_nest.blend
+- Assets/wall_end_full.blend
+- Assets/fence.blend
+- Assets/chest_open.blend
+- Assets/cannon_balls_3.blend
+Dependencies: []

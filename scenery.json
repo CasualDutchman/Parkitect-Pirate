@@ -1,0 +1,485 @@
+﻿{
+    
+	"Cannon": {
+		
+		"category": "Pirate",
+		
+		"model": "cannon",
+		
+		"type": "deco",
+		
+		"price": 25.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,
+		
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#361F07"
+        	}	
+	}
+
+	"Locked Chest": {
+		
+		"category": "Pirate",
+		
+		"model": "chest_locked",
+		
+		"type": "deco",
+		
+		"price": 12.5,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#604914",
+			"color2": "#585858"
+        	}	
+	}
+
+	"Opened Chest": {
+		
+		"category": "Pirate",
+		
+		"model": "chest_open",
+		
+		"type": "deco",
+		
+		"price": 12.5,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#604914"
+        	}	
+	}
+
+	"Cannonballs small": {
+		
+		"category": "Pirate",
+		
+		"model": "cannon_balls_3",
+		
+		"type": "deco",
+		
+		"price": 5.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+	
+		"recolorable": false,
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#3B3B3B"
+        	}	
+	}
+
+	"Cannonballs medium": {
+		
+		"category": "Pirate",
+		
+		"model": "cannon_balls_1",
+		
+		"type": "deco",
+		
+		"price": 10.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#3B3B3B",
+			"color2": "#333333"
+        	}	
+	}
+
+	"Cannonballs large": {
+		
+		"category": "Pirate",
+		
+		"model": "cannon_balls_2",
+		
+		"type": "deco",
+		
+		"price": 15.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#3B3B3B",
+			"color2": "#333333"
+        	}	
+	}
+
+	"Cannon Hole": {
+		
+		"category": "Pirate",
+		
+		"model": "wall_cannon_hole_full",
+		
+		"type": "deco",
+		
+		"price": 5.0,
+	
+		"heightDelta": 1.0,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+
+	"Cannon Hole 3/4": {
+		
+		"category": "Pirate",
+		
+		"model": "wall_cannon_hole_3-4",
+		
+		"type": "deco",
+		
+		"price": 4.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+
+	"Cannon End": {
+		
+		"category": "Pirate",
+		
+		"model": "wall_end_full",
+		
+		"type": "deco",
+		
+		"price": 4.0,
+	
+		"heightDelta": 1.0,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+
+	"Cannon End 3/4": {
+		
+		"category": "Pirate",
+		
+		"model": "wall_end_3-4",
+		
+		"type": "deco",
+		
+		"price": 3.5,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+
+	"Wall Planks": {
+		
+		"category": "Pirate",
+		
+		"model": "wall_full",
+		
+		"type": "deco",
+		
+		"price": 5.0,
+	
+		"heightDelta": 1.0,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+
+	"Wall Planks 3/4": {
+		
+		"category": "Pirate",
+		
+		"model": "wall_3-4",
+		
+		"type": "deco",
+		
+		"price": 4.0,
+	
+		"heightDelta": 1.0,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+
+	"Hatch Open": {
+		
+		"category": "Pirate",
+		
+		"model": "hatch_open",
+		
+		"type": "deco",
+		
+		"price": 2.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false	
+	}
+
+	"Hatch Closed": {
+		
+		"category": "Pirate",
+		
+		"model": "hatch_closed",
+		
+		"type": "deco",
+		
+		"price": 2.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false	
+	}
+
+	"Fence": {
+		
+		"category": "Pirate",
+		
+		"model": "fence",
+		
+		"type": "deco",
+		
+		"price": 4.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+
+	"Beam": {
+		
+		"category": "Pirate",
+		
+		"model": "beam",
+		
+		"type": "deco",
+		
+		"price": 3.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#150A00"
+        	}	
+	}
+
+	"Mast": {
+		
+		"category": "Pirate",
+		
+		"model": "mast_1",
+		
+		"type": "deco",
+		
+		"price": 15.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,
+		
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#E0E0D7"
+        	}	
+	}
+
+	"Mast Tied": {
+		
+		"category": "Pirate",
+		
+		"model": "mast_1_c",
+		
+		"type": "deco",
+		
+		"price": 12.5.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,
+		
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#E0E0D7"
+        	}	
+	}
+
+	"Crows Nest": {
+		
+		"category": "Pirate",
+		
+		"model": "crows_nest",
+		
+		"type": "deco",
+		
+		"price": 12.5.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,
+		
+		"grid": false	
+	}
+
+	"Flag": {
+		
+		"category": "Pirate",
+		
+		"model": "flag",
+		
+		"type": "deco",
+		
+		"price": 10.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,
+		
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#BEBE9A"
+        	}	
+	}
+
+	"Flag Angry Skull": {
+		
+		"category": "Pirate",
+		
+		"model": "flag_skull",
+		
+		"type": "deco",
+		
+		"price": 10.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,
+		
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#BEBE9A",
+            		"color2": "#8A3A3A"
+        	}	
+	}
+
+	"Flag Sad Skull": {
+		
+		"category": "Pirate",
+		
+		"model": "flag_skull_2",
+		
+		"type": "deco",
+		
+		"price": 10.0,
+	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,
+		
+		"grid": false	,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#BEBE9A",
+            		"color2": "#8A3A3A"
+        	}
+	}
+
+}

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3771977709
+CRC: 439643901
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8839475c6467a496ff5e68eaac019e95
+    Hash: 424809bb7c626c4a0af275d237da6edd
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7449d7f55c530e528d8a9b5485c29bdd
+    Hash: 9db725313e50323556a32d5017530c16
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,29 +29,55 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 90
   Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
 Assets:
+- Assets/wall_cannon_hole_3-4.blend
+- Assets/fence_1-4.blend
 - Assets/mast_1_c.blend
-- Assets/flag_skull_2.blend
+- Assets/cannon_shot.prefab
+- Assets/bench.blend
+- Assets/wall_end_full.blend
+- Assets/wall_3-4_to_1-2.blend
+- Assets/cannon_shot_2.prefab
 - Assets/wall_full.blend
+- Assets/hatch_open.blend
+- Assets/fence.blend
+- Assets/wall_full_to_1-2.blend
+- Assets/beam_1-2.blend
+- Assets/flag_wave.prefab
+- Assets/gold_medium.blend
+- Assets/hatch_closed.blend
+- Assets/chest_anim.prefab
+- Assets/plank.blend
+- Assets/beam.blend
+- Assets/chair.blend
+- Assets/fence_2.blend
+- Assets/flag.blend
+- Assets/wall_cannon_hole_full.blend
 - Assets/flag_skull.blend
 - Assets/chest_locked.blend
-- Assets/hatch_closed.blend
-- Assets/hatch_open.blend
-- Assets/flag.blend
-- Assets/beam.blend
-- Assets/wall_end_3-4.blend
-- Assets/wall_cannon_hole_full.blend
-- Assets/cannon_balls_2.blend
-- Assets/cannon_balls_1.blend
-- Assets/cannon.blend
+- Assets/flag_skull_2_wave.prefab
 - Assets/mast_1.blend
-- Assets/wall_3-4.blend
-- Assets/wall_cannon_hole_3-4.blend
-- Assets/crows_nest.blend
-- Assets/wall_end_full.blend
-- Assets/fence.blend
+- Assets/ANIM_cannon_shot.blend
+- Assets/cannon_balls_2.blend
+- Assets/wall_full_to_3-4.blend
+- Assets/cannon_balls_1.blend
+- Assets/wall_end_3-4.blend
 - Assets/chest_open.blend
+- Assets/flag_skull_wave.prefab
+- Assets/wall_3-4.blend
+- Assets/wall_1-2.blend
+- Assets/AnCo_cannon_shot.controller
 - Assets/cannon_balls_3.blend
+- Assets/table.blend
+- Assets/fence_1-2.blend
+- Assets/crows_nest.blend
+- Assets/cannon.blend
+- Assets/gold_small.blend
+- Assets/beam_1-4.blend
+- Assets/wall_end_1-2.blend
+- Assets/flag_skull_2.blend
 Dependencies: []

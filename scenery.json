@@ -1,56 +1,61 @@
 ﻿{
-    
-	"Cannon": {
-		
-		"category": "Pirate/Prop",
-		
-		"model": "cannon",
-		
+	"cd_shop_deco": {
+		"displayname": "Shop Decoration",	
+		"category": "Pirate/Shop",
+		"model": "shop_deco",
 		"type": "deco",
-		
+		"price": 20.0,
+		"heightDelta": 0.25,	
+		"gridSubdivision": 1.0,
+		"grid": true,
+        	"recolorable": true
+	}
+	"cd_shop_deco_2": {
+		"displayname": "Shop Decoration",	
+		"category": "Pirate/Shop",
+		"model": "shop_deco_2",
+		"type": "deco",
+		"price": 20.0,
+		"heightDelta": 0.25,	
+		"gridSubdivision": 1.0,
+		"grid": true,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#69200D",
+			"color2": "#7F7C6E"
+        	}
+	}
+	"cd_cannon": {
+		"displayname": "Cannon",	
+		"category": "Pirate/Prop",
+		"model": "cannon",
+		"type": "deco",
 		"price": 25.0,
-	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 3.0,
-		
 		"grid": false,
-        	"recolorable": false	
+        	"recolorable": true
 	}
-
-	"Cannon Animated": {
-		
+	"cd_cannon_anim": {
+		"displayname": "Animated Cannon",	
 		"category": "Pirate/Animated",
-		
 		"model": "cannon_shot_2",
-		
 		"type": "deco",
-		
 		"price": 50.0,
-	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 1.0,
-		
 		"grid": true,
-        	"recolorable": true,
-        	"recolorableOptions": 
-		{
-            		"color1": "#361F07"
-        	}	
+        	"recolorable": true
 	}
-
-	"Cannon Animated w/ Hatch": {
-		
+	"cd_cannon_hatch_anim": {
+		"displayname": "Animated Cannon",		
 		"category": "Pirate/Animated",
-		
 		"model": "cannon_shot",
-		
 		"type": "deco",
-		
 		"price": 50.0,
-	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 1.0,
-		
 		"grid": true,
         	"recolorable": true,
         	"recolorableOptions": 
@@ -58,20 +63,14 @@
             		"color1": "#361F07"
         	}	
 	}
-
-	"Locked Chest": {
-		
+	"cd_chest": {
+		"displayname": "Chest",	
 		"category": "Pirate/Prop",
-		
 		"model": "chest_locked",
-		
 		"type": "deco",
-		
 		"price": 12.5,
-	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-		
 		"grid": false,
         	"recolorable": true,
         	"recolorableOptions": 
@@ -80,20 +79,14 @@
 			"color2": "#585858"
         	}	
 	}
-
-	"Opened Chest": {
-		
+	"cd_chest_open": {
+		"displayname": "Chest Open",	
 		"category": "Pirate/Prop",
-		
 		"model": "chest_open",
-		
 		"type": "deco",
-		
 		"price": 12.5,
-	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-		
 		"grid": false,
         	"recolorable": true,
         	"recolorableOptions": 
@@ -101,41 +94,29 @@
             		"color1": "#604914"
         	}	
 	}
-
-	"Animated Chest": {
-		
+	"cd_chest_anim": {
+		"displayname": "Animated Chest",		
 		"category": "Pirate/Animated",
-		
 		"model": "chest_anim",
-		
 		"type": "deco",
-		
 		"price": 20.0,
-	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 3.0,
-		
-		"grid": false
+		"grid": false,
         	"recolorable": true,
         	"recolorableOptions": 
 		{
             		"color1": "#604914"
         	}	
 	}
-
-	"Cannonballs small": {
-		
+	"cd_cannon_balls_1": {
+		"displayname": "Cannonballs",	
 		"category": "Pirate/Prop",
-		
 		"model": "cannon_balls_3",
-		
 		"type": "deco",
-		
 		"price": 5.0,
-	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-	
 		"recolorable": false,
 		"grid": false,
         	"recolorable": true,
@@ -144,20 +125,14 @@
             		"color1": "#3B3B3B"
         	}	
 	}
-
-	"Cannonballs medium": {
-		
+	"cd_cannon_balls_2": {	
+		"displayname": "Cannonballs",	
 		"category": "Pirate/Prop",
-		
 		"model": "cannon_balls_1",
-		
 		"type": "deco",
-		
 		"price": 10.0,
-	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": false,
         	"recolorable": true,
@@ -167,20 +142,14 @@
 			"color2": "#333333"
         	}	
 	}
-
-	"Cannonballs large": {
-		
+	"cd_cannon_balls_3": {
+		"displayname": "Cannonballs",		
 		"category": "Pirate/Prop",
-		
 		"model": "cannon_balls_2",
-		
 		"type": "deco",
-		
 		"price": 15.0,
-	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": false,
         	"recolorable": true,
@@ -190,44 +159,14 @@
 			"color2": "#333333"
         	}	
 	}
-
-	"Wall 1 Hole": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "wall_cannon_hole_full",
-		
+	"cd_deck_full": {
+		"displayname": "Deck",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks",
 		"type": "deco",
-		
 		"price": 5.0,
-	
-		"heightDelta": 1.0,	
-		"gridSubdivision": 2.0,
-
-		"recolorable": false,		
-		"grid": true,
-		"snapCenter": false,
-        	"recolorable": true,
-        	"recolorableOptions": 
-		{
-            		"color1": "#261702",
-			"color2": "#442E08"
-        	}	
-	}
-
-	"Wall 3/4 Hole": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "wall_cannon_hole_3-4",
-		
-		"type": "deco",
-		
-		"price": 4.0,
-	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -238,92 +177,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Wall 1 End": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "wall_end_full",
-		
+	"cd_deck_corner": {
+		"displayname": "Deck Corner",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_corner",
 		"type": "deco",
-		
-		"price": 4.0,
-	
-		"heightDelta": 1.0,	
-		"gridSubdivision": 2.0,
-
-		"recolorable": false,		
-		"grid": true,
-		"snapCenter": false,
-        	"recolorable": true,
-        	"recolorableOptions": 
-		{
-            		"color1": "#261702",
-			"color2": "#442E08"
-        	}	
-	}
-
-	"Wall 3/4 End": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "wall_end_3-4",
-		
-		"type": "deco",
-		
-		"price": 3.5,
-	
-		"heightDelta": 0.25,	
-		"gridSubdivision": 2.0,
-
-		"recolorable": false,		
-		"grid": true,
-		"snapCenter": false,
-        	"recolorable": true,
-        	"recolorableOptions": 
-		{
-            		"color1": "#261702",
-			"color2": "#442E08"
-        	}	
-	}
-
-	"Wall 1/2 End": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "wall_end_1-2",
-		
-		"type": "deco",
-		
-		"price": 3.5,
-	
-		"heightDelta": 0.25,	
-		"gridSubdivision": 2.0,
-
-		"recolorable": false,		
-		"grid": true,
-		"snapCenter": false,
-        	"recolorable": true,
-        	"recolorableOptions": 
-		{
-            		"color1": "#261702",
-			"color2": "#442E08"
-        	}	
-	}
-
-	"Wall 1": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "wall_full",
-		
-		"type": "deco",
-		
 		"price": 5.0,
-	
-		"heightDelta": 1.0,	
+		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -334,20 +195,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Wall 3/4": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "wall_3-4",
-		
+	"cd_deck_corner_r": {
+		"displayname": "Deck Corner",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_corner_r",
 		"type": "deco",
-		
-		"price": 4.0,
-	
-		"heightDelta": 1.0,	
+		"price": 5.0,
+		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -358,20 +213,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Wall 1/2": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "wall_1-2",
-		
+	"cd_deck_half_corner": {
+		"displayname": "Deck Half Corner",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_half_corner",
 		"type": "deco",
-		
-		"price": 3.5,
-	
-		"heightDelta": 1.0,	
+		"price": 5.0,
+		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -382,20 +231,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Wall 1 to 3/4": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "wall_full_to_3-4",
-		
+	"cd_deck_half_corner_r": {
+		"displayname": "Deck Half Corner",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_half_corner_r",
 		"type": "deco",
-		
-		"price": 4.0,
-	
-		"heightDelta": 1.0,	
+		"price": 5.0,
+		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -406,20 +249,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Wall 1 to 1/2": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "wall_full_to_1-2",
-		
+	"cd_deck_half_corner_2": {
+		"displayname": "Deck Half Corner",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_half_corner_2",
 		"type": "deco",
-		
-		"price": 4.0,
-	
-		"heightDelta": 1.0,	
+		"price": 5.0,
+		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -430,20 +267,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Wall 3/4 to 1/2": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "wall_3-4_to_1-2",
-		
+	"cd_deck_half_corner_2_r": {
+		"displayname": "Deck Half Corner",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_half_corner_2_r",
 		"type": "deco",
-		
-		"price": 4.0,
-	
-		"heightDelta": 1.0,	
+		"price": 5.0,
+		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -454,56 +285,614 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Hatch Open": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "hatch_open",
-		
+	"cd_deck_half_corner_o": {
+		"displayname": "Deck Half Corner",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_half_corner_o",
 		"type": "deco",
-		
+		"price": 5.0,
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_deck_half_corner_o_r": {
+		"displayname": "Deck Half Corner",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_half_corner_o_r",
+		"type": "deco",
+		"price": 5.0,
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_deck_half_corner_o_2": {
+		"displayname": "Deck Half Corner",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_half_corner_o_2",
+		"type": "deco",
+		"price": 5.0,
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_deck_half_corner_o_2_r": {
+		"displayname": "Deck Half Corner",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_half_corner_o_2_r",
+		"type": "deco",
+		"price": 5.0,
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_deck_stairs_1-4": {
+		"displayname": "Deck",		
+		"category": "Pirate/Floors-Roofs",		
+		"model": "floor_1-4",		
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_deck_stairs_1-2": {		
+		"displayname": "Deck",		
+		"category": "Pirate/Floors-Roofs",		
+		"model": "floor_1-2",		
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_deck_end": {		
+		"displayname": "Deck",		
+		"category": "Pirate/Floors-Roofs",		
+		"model": "floor_planks_1-4",		
+		"type": "deco",		
+		"price": 2.5,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_deck_hole": {		
+		"displayname": "Deck",		
+		"category": "Pirate/Floors-Roofs",		
+		"model": "floor_hole",	
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_deck_deco_1": {		
+		"displayname": "Deck Deco",		
+		"category": "Pirate/Floors-Roofs",		
+		"model": "floor_hole_bars",		
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#52281E"
+        	}	
+	}
+	"cd_deck_deco_2": {		
+		"displayname": "Deck Deco",	
+		"category": "Pirate/Floors-Roofs",		
+		"model": "floor_hole_hatch",		
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#52281E",
+			"color2": "#371916"
+        	}	
+	}
+	"cd_deck_deco_3": {		
+		"displayname": "Deck Deco",	
+		"category": "Pirate/Floors-Roofs",		
+		"model": "floor_hole_hatch_open",		
+		"type": "deco",		
+		"price": 7.5,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#52281E",
+			"color2": "#371916"
+        	}	
+	}
+	"cd_deck_deco_anim": {		
+		"displayname": "Animated Hatch",	
+		"category": "Pirate/Animated",		
+		"model": "floor_hatch",		
+		"type": "deco",		
+		"price": 15.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#52281E",
+			"color2": "#371916",
+			"color3": "#232222"
+        	}	
+	}
+	"cd_wall_full_hole": {			
+		"displayname": "Wall",
+		"category": "Pirate/Walls",		
+		"model": "wall_cannon_hole_full",		
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_3-4_hole": {			
+		"displayname": "Wall 3/4",	
+		"category": "Pirate/Walls",		
+		"model": "wall_cannon_hole_3-4",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_full_end": {			
+		"displayname": "Wall",	
+		"category": "Pirate/Walls",
+		"model": "wall_end_full",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_3-4_end": {			
+		"displayname": "Wall 3/4",	
+		"category": "Pirate/Walls",		
+		"model": "wall_end_3-4",		
+		"type": "deco",		
+		"price": 3.5,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_1-2_end": {		
+		"displayname": "Wall 1/2",		
+		"category": "Pirate/Walls",		
+		"model": "wall_end_1-2",		
+		"type": "deco",		
+		"price": 3.5,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_full": {			
+		"displayname": "Wall",	
+		"category": "Pirate/Walls",		
+		"model": "wall_full",		
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_full_diagonal": {			
+		"displayname": "Wall Diagonal",	
+		"category": "Pirate/Walls",		
+		"model": "wall_full_d",
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_full_h-diagonal": {			
+		"displayname": "Wall Half Diagonal",		
+		"category": "Pirate/Walls",		
+		"model": "wall_full_d_2",		
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_full_h-diagonal_2": {			
+		"displayname": "Wall Half Diagonal",		
+		"category": "Pirate/Walls",		
+		"model": "wall_full_d_2_2",		
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_3-4": {				
+		"displayname": "Wall 3/4",	
+		"category": "Pirate/Walls",		
+		"model": "wall_3-4",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_3-4_diagonal": {			
+		"displayname": "Wall 3/4 Diagonal",		
+		"category": "Pirate/Walls",		
+		"model": "wall_3-4_d",		
+		"type": "deco",
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_3-4_h-diagonal": {		
+		"displayname": "Wall 3/4 Half Diagonal",		
+		"category": "Pirate/Walls",		
+		"model": "wall_3-4_d_2",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_3-4_h-diagonal_2": {		
+		"displayname": "Wall 3/4 Half Diagonal",		
+		"category": "Pirate/Walls",		
+		"model": "wall_3-4_d_2_2",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_1-2": {				
+		"displayname": "Wall 1/2",	
+		"category": "Pirate/Walls",		
+		"model": "wall_1-2",		
+		"type": "deco",		
+		"price": 3.5,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_1-2_diagonal": {			
+		"displayname": "Wall 1/2 Diagonal",		
+		"category": "Pirate/Walls",		
+		"model": "wall_1-2_d",		
+		"type": "deco",		
+		"price": 3.5,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_1-2_h-diagonal": {			
+		"displayname": "Wall 1/2 Half Diagonal",		
+		"category": "Pirate/Walls",		
+		"model": "wall_1-2_d_2",		
+		"type": "deco",		
+		"price": 3.5,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_1-2_h-diagonal_2": {			
+		"displayname": "Wall 1/2 Half Diagonal",		
+		"category": "Pirate/Walls",		
+		"model": "wall_1-2_d_2_2",		
+		"type": "deco",		
+		"price": 3.5,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_full_3-4_slope": {			
+		"displayname": "Wall 1 to 3/4",		
+		"category": "Pirate/Walls",		
+		"model": "wall_full_to_3-4",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_full_1-2_slope": {			
+		"displayname": "Wall 1 tot 1/2",		
+		"category": "Pirate/Walls",		
+		"model": "wall_full_to_1-2",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_wall_3-4_1-2_slope": {			
+		"displayname": "Wall 3/4 to 1-2",		
+		"category": "Pirate/Walls",		
+		"model": "wall_3-4_to_1-2",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_hatch_open": {			
+		"displayname": "Hatch Open",		
+		"category": "Pirate/Walls",		
+		"model": "hatch_open",		
+		"type": "deco",
 		"price": 2.0,
-	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false	
 	}
-
-	"Hatch Closed": {
-		
-		"category": "Pirate/Walls",
-		
+	"cd_hatch_closed": {			
+		"displayname": "Hatch Closed",		
+		"category": "Pirate/Walls",		
 		"model": "hatch_closed",
-		
-		"type": "deco",
-		
-		"price": 2.0,
-	
+		"type": "deco",		
+		"price": 2.0,	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false	
 	}
-
-	"Fence": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "fence",
-		
-		"type": "deco",
-		
-		"price": 4.0,
-	
+	"cd_fence": {			
+		"displayname": "Fence",		
+		"category": "Pirate/Walls",		
+		"model": "fence",		
+		"type": "deco",		
+		"price": 4.0,	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -514,20 +903,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Fence 1/2 up": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "fence_1-2",
-		
-		"type": "deco",
-		
-		"price": 4.0,
-	
+	"cd_fence_diagonal": {		
+		"displayname": "Fence Diagonal",			
+		"category": "Pirate/Walls",		
+		"model": "fence_d",		
+		"type": "deco",		
+		"price": 4.0,	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -538,20 +921,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Fence 1/4 up": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "fence_1-4",
-		
-		"type": "deco",
-		
-		"price": 4.0,
-	
+	"cd_fence_h-diagonal": {	
+		"displayname": "Fence Half Diagonal",			
+		"category": "Pirate/Walls",		
+		"model": "fence_d_2",		
+		"type": "deco",		
+		"price": 4.0,	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -562,20 +939,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Fence for Cannon": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "fence_2",
-		
-		"type": "deco",
-		
-		"price": 4.0,
-	
+	"cd_fence_h-diagonal_2": {	
+		"displayname": "Fence Half Diagonal",			
+		"category": "Pirate/Walls",		
+		"model": "fence_d_2_2",		
+		"type": "deco",		
+		"price": 4.0,	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -586,20 +957,86 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Fence w/ Plank": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "plank",
-		
+	"cd_fence_gate": {			
+		"displayname": "Fencegate",		
+		"category": "Pirate/Walls",	
+		"model": "fence_gate",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_fence_slope_1-2": {			
+		"displayname": "Fence 1/2 Up",		
+		"category": "Pirate/Walls",		
+		"model": "fence_1-2",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_fence_slope_1-4": {			
+		"displayname": "Fence 1/4 Up",		
+		"category": "Pirate/Walls",		
+		"model": "fence_1-4",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_fence_cannon": {			
+		"displayname": "Fence",		
+		"category": "Pirate/Walls",		
+		"model": "fence_2",		
+		"type": "deco",		
+		"price": 4.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_fence_plank": {		
+		"displayname": "Fence",			
+		"category": "Pirate/Walls",		
+		"model": "plank",		
 		"type": "deco",
-		
-		"price": 7.5,
-	
+		"price": 7.5,	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 3.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -610,20 +1047,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Beam": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "beam",
-		
+	"cd_beam": {			
+		"displayname": "Beam",		
+		"category": "Pirate/Walls",		
+		"model": "beam",		
 		"type": "deco",
-		
-		"price": 3.0,
-	
+		"price": 3.0,	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -634,20 +1065,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Beam 1/4": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "beam_1-4",
-		
-		"type": "deco",
-		
-		"price": 3.0,
-	
+	"cd_beam_diagonal": {		
+		"displayname": "Beam Diagonal",		
+		"category": "Pirate/Walls",	
+		"model": "beam_d",		
+		"type": "deco",		
+		"price": 3.0,	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -658,20 +1083,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Beam 1/2": {
-		
-		"category": "Pirate/Walls",
-		
-		"model": "beam_1-2",
-		
-		"type": "deco",
-		
-		"price": 3.0,
-	
+	"cd_beam_h-diagonal": {		
+		"displayname": "Beam Half Diagonal",		
+		"category": "Pirate/Walls",		
+		"model": "beam_d_2",		
+		"type": "deco",		
+		"price": 3.0,	
 		"heightDelta": 0.25,	
 		"gridSubdivision": 2.0,
-
 		"recolorable": false,		
 		"grid": true,
 		"snapCenter": false,
@@ -682,20 +1101,68 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Mast": {
-		
-		"category": "Pirate/Prop",
-		
-		"model": "mast_1",
-		
-		"type": "deco",
-		
+	"cd_beam_h-diagonal_2": {		
+		"displayname": "Beam Half Diagonal",		
+		"category": "Pirate/Walls",		
+		"model": "beam_d_2_2",		
+		"type": "deco",		
+		"price": 3.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_beam_slope_1-4": {		
+		"displayname": "Beam 1/4 Up",	
+		"category": "Pirate/Walls",		
+		"model": "beam_1-4",		
+		"type": "deco",		
+		"price": 3.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_beam_slope_1-2": {		
+		"displayname": "Beam 1/2 Up",		
+		"category": "Pirate/Walls",		
+		"model": "beam_1-2",		
+		"type": "deco",		
+		"price": 3.0,
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_mast_1": {			
+		"displayname": "Mast",	
+		"category": "Pirate/Prop",		
+		"model": "mast_1",		
+		"type": "deco",		
 		"price": 15.0,
-	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-		
+		"gridSubdivision": 3.0,		
 		"grid": false,
         	"recolorable": true,
         	"recolorableOptions": 
@@ -703,20 +1170,14 @@
             		"color1": "#E0E0D7"
         	}	
 	}
-
-	"Mast Tied": {
-		
-		"category": "Pirate/Prop",
-		
-		"model": "mast_1_c",
-		
-		"type": "deco",
-		
-		"price": 12.5.0,
-	
+	"cd_mast_1_closed": {		
+		"displayname": "Mast",		
+		"category": "Pirate/Prop",		
+		"model": "mast_1_c",		
+		"type": "deco",		
+		"price": 12.5,	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-		
+		"gridSubdivision": 3.0,		
 		"grid": false,
         	"recolorable": true,
         	"recolorableOptions": 
@@ -724,68 +1185,80 @@
             		"color1": "#E0E0D7"
         	}	
 	}
-
-	"Crows Nest": {
-		
-		"category": "Pirate/Prop",
-		
-		"model": "crows_nest",
-		
-		"type": "deco",
-		
-		"price": 12.5,
-	
+	"cd_mast_2": {			
+		"displayname": "Mast",	
+		"category": "Pirate/Prop",		
+		"model": "mast_2",		
+		"type": "deco",		
+		"price": 20.0,	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-		
+		"gridSubdivision": 3.0,		
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#E0E0D7"
+        	}	
+	}
+	"cd_mast_2_closed": {		
+		"displayname": "Mast",	
+		"category": "Pirate/Prop",		
+		"model": "mast_2_c",		
+		"type": "deco",
+		"price": 15.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,		
+		"grid": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#E0E0D7"
+        	}	
+	}
+	"cd_crow_nest": {			
+		"displayname": "Crow's Nest",
+		"category": "Pirate/Prop",
+		"model": "crows_nest",		
+		"type": "deco",
+		"price": 12.5,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,	
+        	"recolorable": true,	
 		"grid": false	
 	}
 
-	"Gold Pile Small": {
-		
-		"category": "Pirate/Prop",
-		
-		"model": "gold_small",
-		
+	"cd_gold_1": {		
+		"displayname": "Gold Pile",	
+		"category": "Pirate/Prop",		
+		"model": "gold_small",		
 		"type": "deco",
-		
-		"price": 20.0,
-	
+		"price": 20.0,	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-		
+		"gridSubdivision": 3.0,	
+        	"recolorable": true,	
 		"grid": false	
 	}
 
-	"Gold Pile Medium": {
-		
-		"category": "Pirate/Prop",
-		
-		"model": "gold_medium",
-		
-		"type": "deco",
-		
-		"price": 25.0,
-	
+	"cd_gold_2": {		
+		"displayname": "Gold Pile",	
+		"category": "Pirate/Prop",		
+		"model": "gold_medium",		
+		"type": "deco",		
+		"price": 25.0,	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-		
+		"gridSubdivision": 3.0,	
+        	"recolorable": true,	
 		"grid": false	
 	}
 
-	"Table": {
-		
-		"category": "Pirate/Prop",
-		
-		"model": "table",
-		
-		"type": "deco",
-		
-		"price": 10.0,
-	
+	"cd_table": {		
+		"displayname": "Table",	
+		"category": "Pirate/Prop",		
+		"model": "table",		
+		"type": "deco",		
+		"price": 10.0,	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-	
+		"gridSubdivision": 3.0,	
 		"grid": false
         	"recolorable": true,
         	"recolorableOptions": 
@@ -794,20 +1267,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Chair": {
-		
-		"category": "Pirate/Prop",
-		
-		"model": "chair",
-		
-		"type": "deco",
-		
-		"price": 10.0,
-	
+	"cd_chair": {		
+		"displayname": "Chair",	
+		"category": "Pirate/Prop",		
+		"model": "chair",		
+		"type": "deco",		
+		"price": 10.0,	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-	
+		"gridSubdivision": 3.0,	
 		"grid": false
         	"recolorable": true,
         	"recolorableOptions": 
@@ -816,20 +1283,14 @@
 			"color2": "#442E08"
         	}	
 	}
-
-	"Pirate Bench": {
-		
-		"category": "Pirate/Prop",
-		
-		"model": "bench",
-		
-		"type": "seatingAuto",
-		
-		"price": 10.0,
-	
+	"cd_bench": {	
+		"displayname": "Bench",		
+		"category": "Pirate/Prop",		
+		"model": "bench",		
+		"type": "seatingAuto",		
+		"price": 10.0,	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-	
+		"gridSubdivision": 3.0,	
 		"grid": false
         	"recolorable": true,
         	"recolorableOptions": 
@@ -843,41 +1304,32 @@
         	}	
 	}
 
-	"Flag": {
-		
-		"category": "Pirate/Prop",
-		
+	"cd_flag_1": {	
+		"displayname": "Flag",		
+		"category": "Pirate/Prop",		
 		"model": "flag",
-		
-		"type": "deco",
-		
+		"type": "deco",		
 		"price": 10.0,
-	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-		
+		"gridSubdivision": 3.0,		
 		"grid": false,
+		"wind": true,
         	"recolorable": true,
         	"recolorableOptions": 
 		{
             		"color1": "#BEBE9A"
         	}	
 	}
-
-	"Flag Angry Skull": {
-		
-		"category": "Pirate/Prop",
-		
+	"cd_flag_2": {		
+		"displayname": "Flag",	
+		"category": "Pirate/Prop",		
 		"model": "flag_skull",
-		
-		"type": "deco",
-		
-		"price": 10.0,
-	
+		"type": "deco",		
+		"price": 10.0,	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-		
+		"gridSubdivision": 3.0,		
 		"grid": false,
+		"wind": true,
         	"recolorable": true,
         	"recolorableOptions": 
 		{
@@ -885,21 +1337,16 @@
             		"color2": "#8A3A3A"
         	}	
 	}
-
-	"Flag Sad Skull": {
-		
-		"category": "Pirate/Prop",
-		
-		"model": "flag_skull_2",
-		
-		"type": "deco",
-		
+	"cd_flag_3": {		
+		"displayname": "Flag",	
+		"category": "Pirate/Prop",		
+		"model": "flag_skull_2",		
+		"type": "deco",		
 		"price": 10.0,
-	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-		
-		"grid": false	,
+		"gridSubdivision": 3.0,		
+		"grid": false,
+		"wind": true,
         	"recolorable": true,
         	"recolorableOptions": 
 		{
@@ -907,70 +1354,120 @@
             		"color2": "#8A3A3A"
         	}
 	}
-
-	"Flag Animated": {
-		
-		"category": "Pirate/Animated",
-		
-		"model": "flag_wave",
-		
-		"type": "deco",
-		
-		"price": 10.0,
-	
+	"cd_flag_4": {	
+		"displayname": "Flag",		
+		"category": "Pirate/Prop",		
+		"model": "hanging_flag",
+		"type": "deco",		
+		"price": 10.0,	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-		
-		"grid": false,
+		"gridSubdivision": 3.0,		
+		"grid": true,
+		"snapcenter": false,
+		"wind": false,
         	"recolorable": true,
         	"recolorableOptions": 
 		{
             		"color1": "#BEBE9A"
         	}	
 	}
-
-	"Flag Angry Skull Animated": {
-		
-		"category": "Pirate/Animated",
-		
-		"model": "flag_skull_wave",
-		
-		"type": "deco",
-		
-		"price": 10.0,
-	
+	"cd_flag_5": {	
+		"displayname": "Flag",		
+		"category": "Pirate/Prop",		
+		"model": "hanging_flag_2",		
+		"type": "deco",		
+		"price": 10.0,	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-		
-		"grid": false,
+		"gridSubdivision": 3.0,		
+		"grid": true,
+		"snapcenter": false,
+		"wind": false,
         	"recolorable": true,
         	"recolorableOptions": 
 		{
-            		"color1": "#BEBE9A",
-            		"color2": "#8A3A3A"
+            		"color1": "#BEBE9A"
         	}	
 	}
-
-	"Flag Sad Skull Animated": {
-		
-		"category": "Pirate/Animated",
-		
-		"model": "flag_skull_2_wave",
-		
-		"type": "deco",
-		
-		"price": 10.0,
-	
+	"cd_latern_pole": {	
+		"displayname": "Lantern",	
+		"category": "Pirate/Prop",		
+		"model": "lantern_pole",		
+		"type": "lamp",		
+		"price": 20.0,	
 		"heightDelta": 0.25,	
-		"gridSubdivision": 3.0,
-		
-		"grid": false	,
-        	"recolorable": true,
-        	"recolorableOptions": 
-		{
-            		"color1": "#BEBE9A",
-            		"color2": "#8A3A3A"
-        	}
+		"gridSubdivision": 3.0,		
+		"grid": false,
+		"wind": false,
+		"mass": 0.3,
+        	"recolorable": true
+	}	
+	"cd_latern_pole_2": {	
+		"displayname": "Lantern",	
+		"category": "Pirate/Prop",		
+		"model": "lantern_pole_2",		
+		"type": "lamp",		
+		"price": 20.0,
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,		
+		"grid": false,
+		"wind": false,
+		"mass": 0.3,
+        	"recolorable": true
+	}
+	"cd_latern_pole_3": {	
+		"displayname": "Lantern",	
+		"category": "Pirate/Prop",		
+		"model": "lantern_pole_3",		
+		"type": "lamp",		
+		"price": 15.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,		
+		"grid": false,
+        	"recolorable": true
+	}
+	"cd_lantern_prop": {	
+		"displayname": "Lantern",	
+		"category": "Pirate/Prop",		
+		"model": "lantern",		
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,		
+		"grid": false,
+        	"recolorable": true
 	}
 
+	"cd_lantern_prop_2": {	
+		"displayname": "Lantern",	
+		"category": "Pirate/Prop",		
+		"model": "lantern_2",		
+		"type": "deco",		
+		"price": 5.0,
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,	
+		"grid": false,
+        	"recolorable": true
+	}
+	"cd_lantern_prop_3": {
+		"displayname": "Lantern",	
+		"category": "Pirate/Prop",		
+		"model": "lantern_3",		
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,
+		"grid": false,
+        	"recolorable": true
+	}
+	"cd_crate": {
+		"displayname": "Crate",	
+		"category": "Pirate/Prop",		
+		"model": "crate",		
+		"type": "deco",		
+		"price": 5.0,	
+		"heightDelta": 0.25,	
+		"gridSubdivision": 3.0,
+		"grid": false,
+        	"recolorable": true
+	}
 }

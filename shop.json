@@ -1,0 +1,132 @@
+﻿{
+	
+	"cd_shop_pirate_souvenirs" : {
+	
+		"displayname":"Pirate Souvenirs",	
+		"model":"shop_preset",
+		
+		"price": 20.5,
+		
+		"products": {
+	
+			"Matey's Hat": {
+                
+				"model":"pirate_hat",
+              
+				"price": 2.0,
+                
+				"type" : "wearable",
+                
+				"bodylocation" : "head",
+                
+				"hideonrides" : false,
+                
+				"hidehair" : true,
+                
+				"ingredients": {
+                                      	
+					"Souvenir" :{
+                     
+						"price": 1.0,
+                     
+						"amount" : 1.0,
+                     
+						"tweakable" : false
+                   
+					}
+                
+				}
+            
+			},
+			"Captain's Hat": {
+                
+				"model":"pirate_hat_2",
+              
+				"price": 3.0,
+                
+				"type" : "wearable",
+                
+				"bodylocation" : "head",
+                
+				"hideonrides" : false,
+                
+				"hidehair" : true,
+                
+				"ingredients": {
+                                      	
+					"Souvenir" :{
+                     
+						"price": 1.5,
+                     
+						"amount" : 1.0,
+                     
+						"tweakable" : false
+                   
+					}
+                
+				}
+            
+			},		
+			"Eyepatch": {
+                
+				"model":"eye_patch",
+              
+				"price": 1.5,
+                
+				"type" : "wearable",
+                
+				"bodylocation" : "face",
+                
+				"hideonrides" : false,
+                
+				"hidehair" : false,
+                
+				"ingredients": {
+                                      	
+					"Souvenir" :{
+                     
+						"price": 0.5,
+                     
+						"amount" : 1.0,
+                     
+						"tweakable" : false
+                   
+					}
+                
+				}
+            
+			},	
+			"Toy Sword": {
+                
+				"model":"pirate_sword",
+              
+				"price": 3.0,
+                
+				"type" : "wearable",
+                
+				"bodylocation" : "back",
+                
+				"hideonrides" : true,
+                
+				"hidehair" : false,
+                
+				"ingredients": {
+                                      	
+					"Souvenir" :{
+                     
+						"price": 2.0,
+                     
+						"amount" : 1.0,
+                     
+						"tweakable" : false
+                   
+					}
+                
+				}
+            
+			}				
+		}
+	
+	}
+
+}

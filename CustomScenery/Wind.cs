@@ -18,7 +18,7 @@ namespace Custom_Scenery
         void Update()
         {
             timer += Time.fixedDeltaTime;
-            if (timer >= 8)
+            if (timer >= 136)
             {
                 timer = 0;
                 ChangeDir();

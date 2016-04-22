@@ -1,29 +1,41 @@
-﻿using UnityEngine;
+﻿using CustomShops;
+using UnityEngine;
 
 namespace Custom_Scenery
 {
     public class Main : IMod
     {
-        private GameObject _go;
+        private GameObject _scenery;
+        private GameObject _shop;
+        private GameObject _wind;
 
         public void onEnabled()
         {
-            _go = new GameObject();
+            _scenery = new GameObject();
+            _shop = new GameObject();
+            _wind = new GameObject("cdwind");
 
-            _go.AddComponent<SceneryLoader>();
+            _scenery.AddComponent<SceneryLoader>();
+            _shop.AddComponent<CustomShopLoader>();
+            _wind.AddComponent<Wind>();
 
-            _go.GetComponent<SceneryLoader>().Path = Path;
+            _scenery.GetComponent<SceneryLoader>().Path = Path;
+            _shop.GetComponent<CustomShopLoader>().Path = Path;
 
-            _go.GetComponent<SceneryLoader>().Identifier = Identifier;
+            _scenery.GetComponent<SceneryLoader>().Identifier = Identifier;
 
-            _go.GetComponent<SceneryLoader>().LoadScenery();
+            _scenery.GetComponent<SceneryLoader>().LoadScenery();
+            _shop.GetComponent<CustomShopLoader>().LoadShop();
         }
 
         public void onDisabled()
         {
-            _go.GetComponent<SceneryLoader>().UnloadScenery();
+            _scenery.GetComponent<SceneryLoader>().UnloadScenery();
+            _shop.GetComponent<CustomShopLoader>().UnloadShops();
 
-            Object.Destroy(_go);
+            Object.Destroy(_scenery);
+            Object.Destroy(_shop);
+            Object.Destroy(_wind);
         }
 
         public string Name { get { return "Pirate Theme Scenery"; } }

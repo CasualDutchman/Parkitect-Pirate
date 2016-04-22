@@ -33,7 +33,7 @@
   <ItemGroup>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Desktop\Parkitect pa 6\Parkitect_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Parkitect\Parkitect_Pre-Alpha_9a_64bit\Parkitect_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,10 +42,10 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\Desktop\Parkitect pa 6\Parkitect_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Parkitect\Parkitect_Pre-Alpha_9a_64bit\Parkitect_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\..\Parkitect_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Parkitect\Parkitect_Pre-Alpha_9a_64bit\Parkitect_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +57,7 @@
     <None Include="scenery.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomScenery\CustomShopLoader.cs" />
     <Compile Include="CustomScenery\Decorators\GridDecorator.cs" />
     <Compile Include="CustomScenery\Decorators\GridSubdivisionDecorator.cs" />
     <Compile Include="CustomScenery\Decorators\HeightDecorator.cs" />
@@ -73,8 +74,25 @@
     <Compile Include="CustomScenery\Decorators\Type\DecoDecorator.cs" />
     <Compile Include="CustomScenery\Decorators\Type\SeatingDecorator.cs" />
     <Compile Include="CustomScenery\Decorators\Type\TrashBinDecorator.cs" />
+    <Compile Include="CustomScenery\Decorators\WindDecorator.cs" />
     <Compile Include="CustomScenery\Main.cs" />
     <Compile Include="CustomScenery\SceneryLoader.cs" />
+    <Compile Include="CustomScenery\Shop\Decorator\ColorDecorator.cs" />
+    <Compile Include="CustomScenery\Wind.cs" />
+    <Compile Include="CustomScenery\Wind_Check.cs" />
+    <Compile Include="CustomScenery\Wind_Check_Horizontal.cs" />
+    <Compile Include="CustomScenery\Shop\ConsumableProductInstance.cs" />
+    <Compile Include="CustomScenery\Shop\Decorator\IDecorator.cs" />
+    <Compile Include="CustomScenery\Shop\Decorator\NameDecorator.cs" />
+    <Compile Include="CustomScenery\Shop\Decorator\PriceDecorator.cs" />
+    <Compile Include="CustomScenery\Shop\Decorator\Product\ConsumableProductDecorator.cs" />
+    <Compile Include="CustomScenery\Shop\Decorator\Product\OnGoingProductDecorator.cs" />
+    <Compile Include="CustomScenery\Shop\Decorator\Product\ProductDecorator.cs" />
+    <Compile Include="CustomScenery\Shop\Decorator\Product\WerableProductDecorator.cs" />
+    <Compile Include="CustomScenery\Shop\Decorator\ShopSettingsDecorator.cs" />
+    <Compile Include="CustomScenery\Shop\OngoingEffectProductInstance.cs" />
+    <Compile Include="CustomScenery\Shop\ShopInstance.cs" />
+    <Compile Include="CustomScenery\Shop\WerableProductInstance.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>

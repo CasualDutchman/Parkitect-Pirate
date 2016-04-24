@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 386702711
+CRC: 1486857664
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8378d433f5df03006c12e1630a01a2ef
+    Hash: b8e41390a13138273254dae5d4e5e311
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9db725313e50323556a32d5017530c16
@@ -35,15 +35,17 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/chair.blend
-- Assets/floor_planks_half_corner_r.blend
+- Assets/lantern_pole_3.blend
 - Assets/beam_1-2.blend
 - Assets/wall_3-4_d_2.blend
 - Assets/cannon_shot.prefab
 - Assets/lantern.blend
+- Assets/lantern_pole.blend
 - Assets/wall_1-2_d.blend
 - Assets/wall_full.blend
 - Assets/chest_open.blend
 - Assets/floor_planks_corner.blend
+- Assets/floor_planks_half_corner_r.blend
 - Assets/floor_planks.blend
 - Assets/plank.blend
 - Assets/fence_d_2.blend
@@ -54,16 +56,15 @@ Assets:
 - Assets/beam.blend
 - Assets/hanging_flag.blend
 - Assets/floor_hole_bars.blend
+- Assets/floor_planks_1-2.blend
 - Assets/floor_hole_hatch_open.blend
-- Assets/lantern_pole_3.blend
+- Assets/floor_planks_corner_r.blend
 - Assets/flag.blend
-- Assets/lantern_pole_2.blend
 - Assets/table.blend
 - Assets/wall_3-4_d.blend
-- Assets/floor_planks_half_corner_o_r.blend
 - Assets/wall_full_to_3-4.blend
 - Assets/cannon_balls_1.blend
-- Assets/bench.blend
+- Assets/floor_planks_1-2_2.blend
 - Assets/mast_2_c.blend
 - Assets/floor_planks_half_corner_2.blend
 - Assets/wall_end_3-4.blend
@@ -79,6 +80,7 @@ Assets:
 - Assets/floor_planks_half_corner_o_2.blend
 - Assets/mast_2.blend
 - Assets/flag_skull_2.blend
+- Assets/floor_planks_half_corner_o_r.blend
 - Assets/crows_nest.blend
 - Assets/mast_1_c.blend
 - Assets/fence_d.blend
@@ -93,9 +95,11 @@ Assets:
 - Assets/wall_end_1-2.blend
 - Assets/chest_locked.blend
 - Assets/beam_d.blend
+- Assets/floor_planks_half_corner_2_r.blend
 - Assets/floor_planks_half_corner.blend
 - Assets/hatch_open.blend
 - Assets/shop_deco_2.blend
+- Assets/bench.blend
 - Assets/wall_3-4_d_2_2.blend
 - Assets/floor_1-2.blend
 - Assets/hatch_closed.blend
@@ -112,17 +116,15 @@ Assets:
 - Assets/wall_cannon_hole_full.blend
 - Assets/fence.blend
 - Assets/wall_cannon_hole_3-4.blend
-- Assets/lantern_pole.blend
-- Assets/floor_planks_half_corner_o_2_r.blend
 - Assets/gold_medium.blend
-- Assets/floor_planks_half_corner_2_r.blend
 - Assets/wall_end_full.blend
+- Assets/floor_planks_half_corner_o_2_r.blend
+- Assets/lantern_pole_2.blend
 - Assets/fence_2.blend
 - Assets/wall_full_d_2.blend
 - Assets/wall_full_d_2_2.blend
 - Assets/fence_d_2_2.blend
 - Assets/beam_d_2.blend
-- Assets/floor_planks_corner_r.blend
 - Assets/lantern_3.blend
 - Assets/fence_1-2.blend
 Dependencies: []

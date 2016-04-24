@@ -177,6 +177,42 @@
 			"color2": "#442E08"
         	}	
 	}
+	"cd_deck_half": {
+		"displayname": "Deck",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_1-2",
+		"type": "deco",
+		"price": 5.0,
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
+	"cd_deck_half_2": {
+		"displayname": "Deck",		
+		"category": "Pirate/Floors-Roofs",
+		"model": "floor_planks_1-2_2",
+		"type": "deco",
+		"price": 5.0,
+		"heightDelta": 0.25,	
+		"gridSubdivision": 2.0,
+		"recolorable": false,		
+		"grid": true,
+		"snapCenter": false,
+        	"recolorable": true,
+        	"recolorableOptions": 
+		{
+            		"color1": "#261702",
+			"color2": "#442E08"
+        	}	
+	}
 	"cd_deck_corner": {
 		"displayname": "Deck Corner",		
 		"category": "Pirate/Floors-Roofs",
@@ -1437,7 +1473,7 @@
         	"recolorable": true
 	}
 
-	"cd_lantern_prop_2": {	
+	"cd_lantern_prop_2": {
 		"displayname": "Lantern",	
 		"category": "Pirate/Prop",		
 		"model": "lantern_2",		

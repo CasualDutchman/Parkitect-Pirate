@@ -58,17 +58,17 @@ namespace CustomShops
 			if (options.ContainsKey ("temperature")) {
 				switch ((string)options ["temperature"]) {
 				case "none":
-					consumable.temperaturePreference = ConsumableProduct.TemperaturePreference.NONE;
+					consumable.temperaturePreference = TemperaturePreference.NONE;
 					break;
 				case "cold":
-					consumable.temperaturePreference = ConsumableProduct.TemperaturePreference.COLD;
+					consumable.temperaturePreference = TemperaturePreference.COLD;
 					break;
 				case "hot":
-					consumable.temperaturePreference = ConsumableProduct.TemperaturePreference.HOT;
+					consumable.temperaturePreference = TemperaturePreference.HOT;
 					break;
 				}
 			} else {
-				consumable.temperaturePreference = ConsumableProduct.TemperaturePreference.NONE;
+				consumable.temperaturePreference = TemperaturePreference.NONE;
 			}
 			consumable.portions = (int)(Int64)options ["portions"];
 		}
